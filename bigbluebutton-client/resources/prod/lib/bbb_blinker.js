@@ -1,5 +1,5 @@
 function setTitle(title){
-    document.title= "BigBlueButton - " + title;
+    document.title= "Mekong Connect - " + title;
 }
 
 var i = 1;
