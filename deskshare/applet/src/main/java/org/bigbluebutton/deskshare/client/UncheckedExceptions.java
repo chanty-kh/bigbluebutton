@@ -17,7 +17,8 @@
 *
 */
 package org.bigbluebutton.deskshare.client;
-class UncheckedExceptions {
+
+public class UncheckedExceptions {
 	private static Throwable throwable;
 
 	private UncheckedExceptions() throws Throwable {
