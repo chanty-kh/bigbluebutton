@@ -1,5 +1,7 @@
 # Instructions
 
+#### Change the client URL
+
 Create file called ``/etc/bigbluebutton/nginx/mekongconnect```
 
 ```
@@ -26,3 +28,7 @@ sudo ln -s /etc/bigbluebutton/nginx/mekongconnect /etc/bigbluebutton/nginx/clien
 
 sudo /etc/init.d/nginx restart
 ```
+
+#### Change favicon
+
+Copy resources/favicon-16x16.png into /var/www/bigbluebutton-default/ directory.
