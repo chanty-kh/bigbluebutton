@@ -32,3 +32,8 @@ sudo /etc/init.d/nginx restart
 #### Change favicon
 
 Copy resources/favicon-16x16.png into /var/www/bigbluebutton-default/ directory.
+
+#### Change Desktop Sharing icon
+
+cp resources/deskshare.icon.gif /var/www/bigbluebutton/client/bbb.gif
+
